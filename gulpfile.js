@@ -2,10 +2,10 @@ var gulp = require('gulp'),
 	gutil = require('gulp-util'),
 	less = require('gulp-less');
 
-gulp.task('less', ['fonts'], function(){
-	return gulp.src('/less/styles.less')
+gulp.task('less', function(){
+	return gulp.src('components/less/styles.less')
     .pipe(less({}))
-    .pipe(gulp.dest('/css'));
+    .pipe(gulp.dest('build/css'));
 });
 
 gulp.task('watch',function(){
