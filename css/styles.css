@@ -6448,6 +6448,9 @@ section {
   color: #fff;
   text-decoration: none;
 }
+.home {
+  padding-top: 150px;
+}
 .navbar-icon {
   max-height: 100%;
 }
