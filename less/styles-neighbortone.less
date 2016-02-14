@@ -8,19 +8,23 @@
 }
 
 .navbar-brand{
-	height: 100px;
+	height: 150px;
 }
 
-.navbar-right{
-	padding-top : 20px;
+.nav-push{
+	padding-top : 7em;
+	@media (max-width: @screen-xs-max) {
+		padding-top : 0em;
+  }
 }
 
 .navbar-toggle{
-	margin-top : 28px;
+	margin-top : 3.5em;
 }
 
  .titlecard-neighbor{
- 	background-image: url("/img/rach-oof.jpg");
+ 	background-image: url("/img/couch.jpg");
+ 	background-color : @gray-lighter;
  	// background-size: 100%;
   	// background-repeat: no-repeat;
   	height : 45em;
@@ -28,7 +32,15 @@
  	h1{
  		font-size : 3em;
  		padding-top : 2em;
- 		color : darken(@brand-primary, 15%);
+ 		//color : darken(@brand-primary, 15%);
+ 		color : #fff;
+ 		.fade-in-page-load(1s,0s);
+ 	}
+
+ 	p{
+ 		font-size : 1.5em;
+ 		//color : darken(@brand-primary, 15%);
+ 		color : #fff;
  		.fade-in-page-load(1s,0s);
  	}
 
@@ -39,4 +51,14 @@
  	.author{
  		.fade-in-page-load(1s,0s);
  	}
+ }
+
+ .container-buffer{
+ 	padding-left : 5em;
+ 	padding-right : 5em;
+
+ 	@media (max-width: @screen-sm-max) {
+		padding-left : 15px;
+		padding-right : 15px;
+  }
  }

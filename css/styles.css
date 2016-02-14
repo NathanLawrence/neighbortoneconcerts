@@ -6396,16 +6396,47 @@ section {
   display: inline-block;
   width: 200px;
   padding: 8px;
-  color: #ac3931;
-  border: 1px solid #ac3931;
+  color: #702520;
+  border: 1px solid #702520;
   text-align: center;
   outline: none;
   text-decoration: none;
 }
 .ghost-button:hover,
 .ghost-button:active {
-  background-color: #ac3931;
+  background-color: #702520;
+  color: #fff;
+  text-decoration: none;
+}
+.ghost-button:hover a:hover,
+.ghost-button:active a:hover,
+.ghost-button:hover a:active,
+.ghost-button:active a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.ghost-button-white {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+.ghost-button-white:hover,
+.ghost-button-white:active {
+  background-color: #fff;
   color: #000;
+  text-decoration: none;
+}
+.ghost-button-white:hover a:hover,
+.ghost-button-white:active a:hover,
+.ghost-button-white:hover a:active,
+.ghost-button-white:active a:active {
+  color: #fff;
+  text-decoration: none;
 }
 .navbar-icon {
   max-height: 100%;
@@ -6415,22 +6446,49 @@ section {
   margin-bottom: 0px;
 }
 .navbar-brand {
-  height: 100px;
+  height: 150px;
 }
-.navbar-right {
-  padding-top: 20px;
+.nav-push {
+  padding-top: 7em;
+}
+@media (max-width: 767px) {
+  .nav-push {
+    padding-top: 0em;
+  }
 }
 .navbar-toggle {
-  margin-top: 28px;
+  margin-top: 3.5em;
 }
 .titlecard-neighbor {
-  background-image: url("/img/rach-oof.jpg");
+  background-image: url("/img/couch.jpg");
+  background-color: #eeeeee;
   height: 45em;
 }
 .titlecard-neighbor h1 {
   font-size: 3em;
   padding-top: 2em;
-  color: #702520;
+  color: #fff;
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  -o-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.titlecard-neighbor p {
+  font-size: 1.5em;
+  color: #fff;
   opacity: 0;
   -webkit-animation: fadeIn ease-in 1;
   -moz-animation: fadeIn ease-in 1;
@@ -6486,4 +6544,14 @@ section {
   -moz-animation-delay: 0s;
   -o-animation-delay: 0s;
   animation-delay: 0s;
+}
+.container-buffer {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+@media (max-width: 991px) {
+  .container-buffer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

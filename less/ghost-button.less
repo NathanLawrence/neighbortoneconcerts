@@ -3,14 +3,44 @@
   display: inline-block;
   width: 200px;
   padding: 8px;
-  color: @brand-primary ;
-  border: 1px solid @brand-primary;
+  color: darken(@brand-primary, 15%);
+  border: 1px solid darken(@brand-primary, 15%);
   text-align: center;
   outline: none;
   text-decoration: none;
 
 	&:hover, &:active {
-		background-color: @brand-primary;
-		color: #000;
+		background-color: darken(@brand-primary, 15%);
+		color: #fff;
+    text-decoration: none;
+    a {
+      &:hover, &:active{
+        color : #fff;
+        text-decoration : none;
+      }
+    }
 	}
+}
+
+.ghost-button-white {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+
+  &:hover, &:active {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    a {
+      &:hover, &:active{
+        color : #fff;
+        text-decoration : none;
+      }
+    }
+  }
 }
