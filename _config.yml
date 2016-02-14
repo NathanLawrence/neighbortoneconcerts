@@ -9,9 +9,8 @@
 title: Neighbor Tone Concerts
 email: info@neighbortoneconcerts.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Neighbor Tone Concerts is your personal assistant and marketplace for hosting a concert in your home. 
+  We handle all of the dirty work so that you can relax and enjoy the experience of live, beautiful music with your friends and community. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://neighbortoneconcerts.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb

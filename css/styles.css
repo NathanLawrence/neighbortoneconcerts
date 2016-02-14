@@ -6438,6 +6438,16 @@ section {
   color: #fff;
   text-decoration: none;
 }
+.ghost-button-white:hover a:visited,
+.ghost-button-white:active a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.ghost-button-white:hover a:focus,
+.ghost-button-white:active a:focus {
+  color: #fff;
+  text-decoration: none;
+}
 .navbar-icon {
   max-height: 100%;
 }
