@@ -6448,13 +6448,6 @@ section {
   color: #fff;
   text-decoration: none;
 }
-.site-header {
-  position: fixed;
-  width: 100%;
-}
-div.home {
-  padding-top: 150px;
-}
 .navbar-icon {
   max-height: 100%;
 }
