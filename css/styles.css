@@ -6448,6 +6448,12 @@ section {
   color: #fff;
   text-decoration: none;
 }
+@media (max-width: 1199px) {
+  .lunchbox {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
 .home {
   padding-top: 150px;
 }
@@ -6569,5 +6575,8 @@ section {
   }
 }
 #what-we-do .we-do-main {
+  padding-top: 1em;
+}
+#what-we-do .we-do-main .we-do-copy {
   padding-top: 1em;
 }
