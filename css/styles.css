@@ -6454,9 +6454,6 @@ section {
     padding-right: 10%;
   }
 }
-.home {
-  padding-top: 150px;
-}
 .navbar-icon {
   max-height: 100%;
 }
@@ -6579,4 +6576,7 @@ section {
 }
 #what-we-do .we-do-main .we-do-copy {
   padding-top: 1em;
+}
+div.page-content {
+  padding-top: 150px;
 }
