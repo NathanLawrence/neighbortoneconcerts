@@ -6478,6 +6478,10 @@ section {
 .titlecard-neighbor {
   background-image: url("/img/couch.jpg");
   background-color: #eeeeee;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 45em;
 }
 .titlecard-neighbor h1 {
