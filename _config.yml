@@ -13,11 +13,9 @@ description: > # this means to ignore newlines until "baseurl:"
   We handle all of the dirty work so that you can relax and enjoy the experience of live, beautiful music with your friends and community. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://neighbortoneconcerts.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
 
 #Include and Excluce
-exclude: ["node_modules"]
+exclude: ["node_modules","less", "gulpfile.js", "package.json"]
